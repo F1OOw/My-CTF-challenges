@@ -1,0 +1,20 @@
+name: "Virtual Shop 2"
+author: "F100w"
+category: "web"
+
+difficulty: "ezmed"
+
+description: |
+  > I'm not making the same mistake again this time, you can't guess my tables now.
+
+flags:
+  - shellmates{iT_W4$_Not_TH4T_S3cuRE_4T_THe_END}
+
+tags:
+  - ezmed
+  - sqlite
+
+deployment:
+  isolate: false
+  conn_type: http
+  containerPort: 8000
