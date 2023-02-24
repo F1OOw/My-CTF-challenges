@@ -22,16 +22,7 @@ def phase3(val):
         res += long_to_bytes(val[int(len(val)/2)])
     
     return res
-'''
-    def decrypt_to_stage1(enc):
-    e = 65537
-    p = 61571454303089397514579603620349373049341652571832994202527081254304368292533
-    q = 59664824358038218622178548968528898444289564045465867369823072940589283303949
-    n = p*q
-    phi = (p-1)*(q-1)
-    d = pow(e,-1,phi)
-    return long_to_bytes(pow(bytes_to_long(enc),d,n))  
-'''
+
 enc1 = phase1(flag)
 enc2 = phase2(enc1)
 enc3 = phase3(enc2)
