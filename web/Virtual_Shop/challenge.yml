@@ -1,0 +1,20 @@
+name: "Virtual Shop"
+author: "F100w"
+category: "web"
+
+difficulty: "easy"
+
+description: |
+  > So, let's see if you can retrieve the `password` of the admin which `username` is 'admin' among all the available `users` in the db
+
+flags:
+  - shellmates{Gg_b0Y_you_kNOW_w3ll_H0w_T0_uSe_uNiOn_4tTacK}
+
+tags:
+  - easy
+  - sql
+
+deployment:
+  isolate: false
+  conn_type: http
+  containerPort: 8000
