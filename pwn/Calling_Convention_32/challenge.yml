@@ -1,0 +1,23 @@
+name: "Calling Convention 32"
+author: "F100w"
+category: "pwn"
+
+difficulty: easy
+
+description: |
+  > Do you know how functions are being called in 32 bits system ?
+
+flags:
+  - shellmates{n0t_TO0_hARD_thi$_c4lLiNG_C0Nv3nt1ON}
+
+tags:
+  - easy
+
+files:
+  - ./challenge/chall
+  - ./src/challenge.c
+
+deployment:
+  isolate: false
+  conn_type: nc
+  containerPort: 3000

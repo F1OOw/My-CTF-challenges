@@ -1,0 +1,25 @@
+name: "Basic ret2libc"
+author: "F100w"
+category: "pwn"
+
+difficulty: "easy"
+
+description: |
+  > Do you know libc ? It has a banch of useful stuff !
+
+flags:
+  - shellmates{ret2liBc_1$_A_l33T_4tT4ck}
+
+tags:
+  - easy
+  - ret2libc
+
+files:
+  - ./challenge/chall
+  - ./challenge/libc.so.6
+  - ./challenge/ld-linux.so.2
+
+deployment:
+  isolate: false
+  conn_type: nc
+  containerPort: 3000
