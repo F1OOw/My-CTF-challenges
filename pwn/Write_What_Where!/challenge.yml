@@ -1,0 +1,26 @@
+name: "Write_What_Where!"
+author: "F100w"
+category: "pwn"
+
+difficulty: "medium"
+
+description: |
+  > The path is clear, But, do you know how to get there ?
+
+flags:
+  - shellmates{134k_7h3N_D3bU5_7h3n_0ff$e7_7h3n_F0rM47_tH3N_$uuuui}
+
+connection-info:
+
+tags:
+  - medium
+  - format
+
+files:
+  - ./challenge/chall
+  - ./src/challenge.c
+
+deployment:
+  isolate: false
+  conn_type: nc
+  containerPort: 3000
