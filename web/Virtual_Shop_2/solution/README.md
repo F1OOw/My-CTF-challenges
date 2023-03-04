@@ -10,7 +10,8 @@ This way:
 ![First payload](./image1.png)  
 We can see this in the response, which represents the sql queries that have been used to build the tables:  
 ![First result](./image2.png)  
-> Note: This way of getting results is not available in all SQL SGBDs.   
+> Note: This way of getting results is not available in all SQL SGBDs.  
+
 We see that there are two tables, and one of them is obviously the users one: `UsEErrSS1337987`  
 And it has to columns:   
 `usnme324, pw789`   
