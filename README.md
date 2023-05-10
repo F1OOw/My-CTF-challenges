@@ -15,7 +15,7 @@ This is a repo of all the challenges I've done, and been deployed in a CTF so fa
 ##### crypto:
 - [My Cipher](./crypto/MyCipher/)
 
-### Bsides 2K23:
+### Bsides Algiers 2K23:
 #### pwn:
 - [Junior Pwner](./pwn/Junior_Pwner/)
 - [SYS ROP](./pwn/SYS_ROP/)
