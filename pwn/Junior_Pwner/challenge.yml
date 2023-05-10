@@ -1,0 +1,34 @@
+author: F1OOw
+author_link: https://github.com/F1OOw
+category: pwn
+connection_info: ncat -v --ssl junior-pwner.bsides.shellmates.club 443
+deployment:
+  autoban: false
+  conn_type: nc
+  containerPort: 1337
+  deployed: true
+  isolate: false
+  name: junior-pwner
+  nodePort: 30501
+  type: tcp
+description: |-
+  > Since 2001 the world has became a better place with ASLR, that's a facinating mitigation, I can now code safely without mattering all of these hackers, I can't imagine being pwned, at least not by a Junior Pwners...
+
+
+   **Author**: F1OOw
+difficulty: ezmed
+extra:
+  decay: 50
+  initial: 500
+  minimum: 50
+files:
+  - ./challenge/chall
+  - ./src/libc.so.6
+  - ./src/ld-linux-x86-64.so.2
+flags:
+  - shellmates{Never_trUst_aSlR_eV3N_jUn1Or$_C0ULd_BRE4K_It!}
+name: Junior Pwner
+state: visible
+type: dynamic
+value: 500
+version: '0.1'

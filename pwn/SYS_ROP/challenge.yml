@@ -1,0 +1,22 @@
+name: "SYS_ROP"
+author: "F100w"
+author_link: https://github.com/F1OOw
+category: "pwn"
+
+difficulty: "easy"
+
+description: |
+  > I don't believe you can spawn a shell with just what I gave you
+
+flags:
+  - shellmates{yOu_4rE_a_true_H4CkeR}
+
+connection-info: nc localhost 1601
+
+files:
+  - ./challenge/chall
+
+deployment:
+  isolate: false
+  conn_type: nc
+  containerPort: 2023
